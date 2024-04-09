@@ -15,7 +15,7 @@ namespace PartsUnlimited.Models
 
         [DataType(DataType.DateTime)]
         public DateTime DateCreated { get; set; }
-
+// change
         public virtual Product Product { get; set; }
     }
 }
